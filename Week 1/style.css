@@ -1,0 +1,57 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 120px;
+    text-align: center;
+}
+.card-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: #111111;
+    width: 100%;
+    max-width: 250px;
+    padding: 16px;
+    border: 2px solid #222222;
+    border-radius: 16px;
+}
+
+.box-test h2{
+    border: 2px solid #f10101;
+    padding: 30px;
+    margin: 30px;
+}
+
+.featured {
+    border-color: #ffffff;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.link {
+    padding-top: 60px;
+}
+
+.link a {
+    color: aqua;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 16px;
+    }
+
+    .card-row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
