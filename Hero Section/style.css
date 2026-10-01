@@ -14,6 +14,7 @@ body {
     align-items: center;
     gap: 32px;
     padding: 40px;
+    min-height: 100vh;
 }
 
 .hero-text,
@@ -26,6 +27,11 @@ h1 {
     line-height: 1.1;
 }
 
+.intro {
+    color: #b9b8b8;
+    font-size: 18px;
+    max-width: 600px;
+}
 .btn {
     display: inline-block;
     padding: 14px 28px;
@@ -46,9 +52,15 @@ img {
     .hero { 
         flex-direction: column;
         align-items: flex-start;
+        justify-content: center;
     }
 
     h1 {
-        font-size: 24px;
+        font-size: 32px;
+    }
+
+    .hero-text,
+    .hero-image {
+        flex: none;
     }
 }
