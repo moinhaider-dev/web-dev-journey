@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0B0B0F;
+    color: #FFFFFF;
+    padding: 96px 80px;
+}
+
+.text {
+    gap: 2px;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #15151B;
+    padding: 32px;
+    border: 1px solid #2A2A33;
+    border-radius: 24px;
+    gap: 24px;
+    width: 320px;
+}
+
+.amount {
+    font-size: 44px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: 400;
+    color: #A1A1AA;
+}
+
+.check {
+    color: #8894FF;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+.btn {
+    display: inline-block;
+    width: block;
+    padding: 14px 28px;
+    text-decoration: none;
+    background-color: transparent;
+    border-radius: 99px;
+    color: #FFFFFF;
+    border: 1px solid #2A2A33;
+}
+
+.btn a {
+    display: inline;
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
