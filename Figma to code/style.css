@@ -16,6 +16,10 @@ body {
     padding-bottom: 56px;
 }
 
+.text p {
+    color: #A1A1AA;
+}
+
 .plan {
     display: flex;
     flex-direction: column;
@@ -36,7 +40,6 @@ body {
     border-radius: 24px;
     gap: 24px;
     width: 320px;
-    margin: 0 auto;
 }
 
 .amount {
@@ -79,4 +82,52 @@ ul {
 .card p,
 .card ul {
     margin: 0;
+}
+
+.card-row {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.btn-primary {
+    background-color: #8894FF;
+    color: #0B0B0F;
+    border-color: #8894FF;
+}
+
+.featured {
+    border: 2px solid #8894FF;
+}
+
+.badge {
+    align-self: flex-start;
+    padding: 6px 12px;
+    border-radius: 99px;
+    background-color: rgba(136, 148, 255, 0.15);
+    color: #8894FF;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 56px 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+    
+    .card-row {
+        flex-direction: column;
+    }
+    
+    .card {
+        width: 100%;
+    }
+
+    .text {
+        text-align: center;
+    }
 }
