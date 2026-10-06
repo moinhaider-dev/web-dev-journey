@@ -39,6 +39,16 @@ body {
     margin: 0;
 }
 
+.chart {
+    grid-column: span 3;
+}
+
+.chart-area {
+    height: 200px;
+    border-radius: 12px;
+    background-color: rgba(136, 148, 255, 0.15);
+}
+
 @media (max-width: 768px) {
 
     body {
@@ -54,5 +64,10 @@ body {
  
     .value {
         font-size: 24px;
+    }
+
+    .chart,
+    .side {
+        grid-column: span 2;
     }
 }
