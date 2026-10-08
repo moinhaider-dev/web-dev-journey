@@ -13,6 +13,7 @@
     --color-accent: #8894FF;
     --color-accent-soft: rgba(136, 148, 255, 0.15);
     --radius-card: 16px;
+    --gap: 12px;
 }
 
 body {
@@ -26,7 +27,7 @@ body {
 .stats {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 12px;
+    gap: var(--gap);
 }
 
 .stat {
