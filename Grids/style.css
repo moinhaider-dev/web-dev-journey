@@ -38,6 +38,12 @@ body {
     padding: 16px 24px;
     border-radius: var(--radius-card);
     gap: 12px;
+    transition: transform 0.2s ease, border-color 0.2 ease;
+}
+
+.stat:hover {
+    transform: translateY(-4px);
+    border-color: var(--color-accent);
 }
 
 .label {
