@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+    <title>Dashboard</title>
+</head>
+
+<body>
+
+    <h1>Overview</h1>
+    <p>Last 30 days</p>
+
+    <section class="stats">
+        <div class="stat">
+            <p class="label">Total balance</p>
+            <p class="value">$124,580</p>
+            <p><span class="content-up">+8.2%</span> vs last month</p>
+        </div>
+
+        <div class="stat">
+            <p class="label">Revenue</p>
+            <p class="value">$48,200</p>
+            <p><span class="content-up">+12.4%</span> vs last month</p>
+        </div>
+
+        <div class="stat">
+            <p class="label">Expenses</p>
+            <p class="value">$21,740</p>
+            <p><span class="content-down">-3.1%</span> vs last month</p>
+        </div>
+
+        <div class="stat">
+            <p class="label">Active users</p>
+            <p class="value">1,284</p>
+            <p><span class="content-up">+5.6%</span> vs last month</p>
+        </div>
+    </section>
+
+    <section class="main-row">
+        <div class="stat chart">
+            <div class="card-header">
+                <p class="card-title">Revenue</p>
+                <p class="card-subtitle">Last 6 months</p>
+            </div>
+
+            <div class="bars">
+                <div class="bar-col">
+                    <div class="bar" style="height: 90px"></div>
+                    <span class="bar-label">Apr</span>
+                </div>
+
+                <div class="bar-col">
+                    <div class="bar" style="height: 120px"></div>
+                    <span class="bar-label">May</span>
+                </div>
+
+                <div class="bar-col">
+                    <div class="bar" style="height: 105px"></div>
+                    <span class="bar-label">Jun</span>
+                </div>
+
+                <div class="bar-col">
+                    <div class="bar" style="height: 150px"></div>
+                    <span class="bar-label">Jul</span>
+                </div>
+
+                <div class="bar-col">
+                    <div class="bar" style="height: 135px"></div>
+                    <span class="bar-label">Aug</span>
+                </div>
+
+                <div class="bar-col">
+                    <div class="bar current" style="height: 190px"></div>
+                    <span class="bar-label">Sep</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="stat transactions">
+            <div class="tx-header">
+                <p class="card-title">Recent transactions</p>
+                <a href="#" class="link">View all</a>
+            </div>
+
+            <div class="transaction">
+                <div class="tx-info">
+                    <p class="tx-name">Stripe payout</p>
+                    <p class="tx-date">Oct 9</p>
+                </div>
+                <div class="tx-meta">
+                    <p class="tx-amount amount-up">+$4,200</p>
+                    <span class="pill pill-completed">Completed</span>
+                </div>
+            </div>
+
+            <div class="transaction">
+                <div class="tx-info">
+                    <p class="tx-name">AWS invoice</p>
+                    <p class="tx-date">Oct 8</p>
+                </div>
+                <div class="tx-meta">
+                    <p class="tx-amount amount-down">-$1,280</p>
+                    <span class="pill pill-pending">Pending</span>
+                </div>
+            </div>
+
+            <div class="transaction">
+                <div class="tx-info">
+                    <p class="tx-name">Figma subscription</p>
+                    <p class="tx-date">Oct 7</p>
+                </div>
+                <div class="tx-meta">
+                    <p class="tx-amount amount-down">-$45</p>
+                    <span class="pill pill-completed">Completed</span>
+                </div>
+            </div>
+
+            <div class="transaction">
+                <div class="tx-info">
+                    <p class="tx-name">Client payment</p>
+                    <p class="tx-date">Oct 5</p>
+                </div>
+                <div class="tx-meta">
+                    <p class="tx-amount">+$2,500</p>
+                    <span class="pill pill-failed">Failed</span>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
