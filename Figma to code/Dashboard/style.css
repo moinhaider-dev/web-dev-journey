@@ -191,6 +191,12 @@ a {
     text-decoration: none;
 }
 
+.tx-info { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 4px;
+}
+
 .tx-name {
     color: var(--color-text);
     font-family: "DM Sans";
@@ -224,9 +230,11 @@ a {
 }
 
 .pill {
-    display: flex;
     padding: 4px 10px;
-    align-items: flex-start;
+    border-radius: 99px;
+    font-family: "DM Sans";
+    font-size: 12px;
+    font-weight: 500;
 }
 
 .pill-completed {
