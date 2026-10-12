@@ -23,6 +23,7 @@ body {
     background-color: var(--color-bg);
     color: var(--color-text);
     padding: 80px;
+    margin: 0;
 }
 
 h1 {
@@ -94,8 +95,6 @@ p {
     line-height: normal;
 }
 
-
-
 .main-row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -132,6 +131,7 @@ p {
     display: flex;
     align-items: flex-end;
     gap: 16px;
+    margin-top: auto;
 }
 
 .bar-col {
@@ -290,5 +290,21 @@ a {
 
     .stats {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .stat {
+        padding: 16px;
+    }
+
+    .main-row {
+        grid-template-columns: 1fr;
+    }
+
+    .change-label {
+        display: none;
+    }
+
+    .value {
+        font-size: 24px;
     }
 }
