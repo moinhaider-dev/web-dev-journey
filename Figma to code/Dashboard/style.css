@@ -32,7 +32,7 @@ h1 {
     font-weight: 900;
 }
 
- {
+    {
     font-family: "DM Sans";
     font-size: 16px;
     font-weight: 400;
@@ -195,9 +195,9 @@ a {
     text-decoration: none;
 }
 
-.tx-info { 
-    display: flex; 
-    flex-direction: column; 
+.tx-info {
+    display: flex;
+    flex-direction: column;
     gap: 4px;
 }
 
