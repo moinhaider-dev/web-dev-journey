@@ -32,7 +32,7 @@ h1 {
     font-weight: 900;
 }
 
-p {
+ {
     font-family: "DM Sans";
     font-size: 16px;
     font-weight: 400;
@@ -53,6 +53,10 @@ p {
     border-radius: 20px;
     border: 1px solid var(--color-border, #1C2433);
     background: var(--color-card, #0D1320);
+}
+
+.stat h2 {
+    margin: 0;
 }
 
 .stat p {
