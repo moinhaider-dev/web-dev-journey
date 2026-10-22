@@ -21,6 +21,7 @@ Started: 21 September 2026.
 
 ## Learning log
 
+- **22 Oct 2026:** On leave. Still planning to rebuild a login form from memory when I'm back.
 - **20 Oct 2026:** Rest day. I forgot a lot after a few days away, so next I'm rebuilding a login form from memory.
 - **19 Oct 2026:** Busy working on my own portfolio website. Back to lessons tomorrow.
 - **18 Oct 2026:** Rest day. Next up: a review quiz on Flexbox, Grid and forms, then a Figma → Code challenge where I design the section myself.
